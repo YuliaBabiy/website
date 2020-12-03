@@ -1,5 +1,5 @@
 .header-wrapper {
-  background: center / cover no-repeat url("/img/bg-top.webp");
+  background: center / cover no-repeat url("./img/bg-top.webp");
   height: 800px;
 }
 
