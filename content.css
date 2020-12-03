@@ -1,0 +1,172 @@
+.sub-header {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.2);
+  padding: 50px;
+  margin-bottom: 7em;
+  display: flex;
+  position: relative;
+  bottom: 88px;
+}
+
+.icon {
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.slogan-wrapper {
+  margin: 100px auto 50px;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.text {
+  display: flex;
+}
+
+.text > p {
+  padding: 0 15px;
+  color: #999999;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+
+.slider {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  max-width: 1770px;
+  height: 80vh;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.features-wrapper i {
+  font-size: 80px;
+  color: #d6dadd;
+}
+
+.features-wrapper {
+  padding: 105px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.features-wrapper > div {
+  margin-bottom: 24px;
+}
+
+.btn-centered {
+  margin: 48px auto 15px;
+}
+
+.slides {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.slides-1 {
+  background: center / cover no-repeat url("/img/slider-2.jpg");
+}
+
+.slides-2 {
+  background: center / cover no-repeat url("/img/slider-3.jpg");
+}
+
+.slides-3 {
+  background: center / cover no-repeat url("/img/slider.jpg");
+}
+
+.slides-4 {
+  background: center / cover no-repeat url("/img/slider-4.jpg");
+}
+
+.slide {
+  height: 500px;
+}
+
+.slides .slide {
+  padding: 0;
+}
+
+.slide .hidden {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-left: 20px;
+  padding-top: 100px;
+}
+
+.hidden > h2 {
+  font-size: 22px;
+  color: #fff;
+  text-align: left;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.hidden > p {
+ color: #fff;
+ opacity: .3;
+ font-size: 15px;
+ font-weight: 400;
+}
+
+.slide:hover .hidden {
+  opacity: 1;
+  padding-top: 20px;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+}
+
+.bl-blue {
+  width: 380px;
+  height: 117px;
+  text-align: center;
+  color: #fff;
+  align-items: center;
+}
+
+.bl-blue > span {
+  display: block;
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.bl-blue > p {
+  font-size: 15px;
+  opacity: .5;
+}
+
+.quote {
+  width: 760px;
+  margin: 105px auto;
+  text-align: center;
+  color: #000;
+  font-weight: 400;
+}
+
+.quote > span {
+  font-size: 100px;
+}
+
+.quote > p {
+  font-size: 18px;
+  line-height: 2;
+  opacity: .7;
+}

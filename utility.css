@@ -1,0 +1,83 @@
+/* 
+  button, md-50, md-33
+  і ще якісь однакові/багаторазові
+  стилі 
+*/
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  padding: 105px 0;
+}
+
+.md-50 {
+  width: 50%;
+  min-height: 100%;
+}
+
+.md-33 {
+  width: 33%;
+  padding: 0 15px;
+}
+
+.md-67 {
+  width: 67%;
+}
+
+.grey {
+  background: #f8f9fa;
+}
+.blue {
+  background-color: #0389FF;
+}
+
+/* стилі для тексту (під іконками) */
+.description-grey {
+  line-height: 1.8;
+  font-size: 15px;
+  font-weight: 400;
+  color: #999999;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.hidden {
+  opacity: 0;
+  transition: 0.3s ease;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+button.blue {
+  background-color: #0389FF;
+}
+button.black {
+  background-color: #000;
+}
+
+button {
+  color: #fff;
+  width: 190px;
+  height: 55px;
+  font-size: 14px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  border: none;
+  text-decoration: none;
+  outline: none;
+}
+
+button:hover {
+  border-color: #36a1ff;
+  text-decoration: underline;
+  background-color: #0075dc;
+  text-decoration: none;
+}

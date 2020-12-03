@@ -1,0 +1,58 @@
+.footer-nav {
+  display: flex;
+  margin-bottom: 98px;
+}
+
+.footer-nav span {
+  display: block;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #cccccc;
+  margin-bottom: 8px;
+}
+
+.footer-about {
+  line-height: 1.8;
+  font-size: 15px;
+  color: #999999;
+  width: 400px;
+  padding: 0 48px 0 15px;
+}
+
+.footer-list {
+  width: 190px;
+  padding: 0 15px;
+}
+
+.footer-ul {
+  display: block;
+  line-height: 1.8;
+  color: #000;
+  text-decoration: none;
+  font-weight: 400px;
+}
+
+footer button {
+  height: 35px;
+  margin-bottom: 16px;
+}
+
+.footer-link {
+  width: 205px;
+  padding: 0 15px;
+}
+
+.footer-link > a {
+  display: block;
+  line-height: 1.8;
+}
+
+.footer-link > i {
+  line-height: 1.8;
+  padding: 4px;
+}
+
+.copyright {
+  color: #999999;
+  padding: 0 15px;
+}

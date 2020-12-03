@@ -1,0 +1,86 @@
+.header-wrapper {
+  background: center / cover no-repeat url("/img/bg-top.webp");
+  height: 800px;
+}
+
+header {
+  margin: 0 auto;
+  padding: 40px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 22px;
+  color: #000;
+}
+
+.active {
+  font-weight: bold;
+  color: #000;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.nav a {
+  color: gray;
+  padding: 20px 15px;
+  font-weight: 400;
+  letter-spacing: .1em;
+}
+
+.header-content {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 100px;
+  padding: 0 15px;
+}
+
+.header-content p {
+  font-size: 18px;
+  color: gray;
+  line-height: 1.5;
+  margin-bottom: 48px;
+}
+
+.play-container {
+  position: relative;
+}
+
+.play {
+  width: 80px;
+  height: 80px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  transition: .3s;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.play:hover {
+  width: 90px;
+  height: 90px;
+}
+
+
+h1 {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
